@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Start Bootstrap - Revised - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -318,7 +318,7 @@ a:focus {
     padding: 50px 0;
     text-align: center;
     color: #000;
-    background: url('../img/ruger_gp100.jpg') 50% 0 repeat fixed;
+    background: url('../img/ruger_gp100_bw.jpg') 50% 0 repeat fixed;
 	min-height:350px;
 	background-position:center;
     background-color: #000;
@@ -434,7 +434,7 @@ ul.banner-social-buttons {
     padding: 50px 0;
     text-align: center;
     color: #000;
-    background: url('../img/9mm_pair.jpg') 50% 0 repeat fixed;
+    background: url('../img/9mm_pair_bw.jpg') 50% 0 repeat fixed;
 	min-height:350px;
 	background-position:center;
     background-color: #000;
