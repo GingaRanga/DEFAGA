@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+http://www.defaga.com/sitemap.xml
