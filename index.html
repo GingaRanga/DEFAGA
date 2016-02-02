@@ -22,8 +22,8 @@
     
 <!-- CUSTOM FONTS ============================================================================================================================================ -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet" type="text/css">
     
 <!-- GOOGLE MAP API ========================================================================================================================================== -->
     <script src="http://maps.googleapis.com/maps/api/js"></script>
@@ -84,13 +84,13 @@
       		<!-- TOGGLE ====================================================================================================================================== -->
 			<div class="navbar-header">
       			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"><i class="fa fa-bars"></i></button>
-      			<a class="navbar-brand page-scroll" href="#page-top"><img src="img/main_logo2.jpg" alt="logo" height="120px" width="120px"></a> 
+      			<a class="navbar-brand page-scroll" href="#page-top"><img src="img/main_logo2.jpg" alt="logo" height="80px" width="80px"></a> 
          	</div><!-- ./navbar-header --> 
     
     		<!-- NAV LINKS, FORMS, AND OTHER CONTENT FOR TOGGLING ============================================================================================ -->
     		<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
       			<ul class="nav navbar-nav">
-        			<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        			<!-- Hidden li included to remove active class from about link when scrolled up past about section for scrollspy -->
         			<li class="hidden"><a href="#page-top"></a></li>
         			<li><a class="page-scroll" href="#about">About</a></li>
         			<li><a class="page-scroll" href="#membership">Membership</a></li>
@@ -101,25 +101,23 @@
 	</nav>
 
 <!-- INTRO HEADER ============================================================================================================================================ -->
-	<section class="intro" data-type="background" data-speed="10"><!-- used for parallax bg -->
-  		<header class="intro-body">
+	<section id="intro" class="content-section text-center parallax"><!-- used for parallax bg -->
     		<div class="container">
       			<div class="row">
-        			<div class="col-sm-8 col-sm-offset-2">
-          				<h1 class="brand-heading">D.E.F.A.G.A.</h1>
-          				<p class="intro-text">Digby East Fish &amp; Game Association<br>Gun Club</p>
+        			<div class="col-sm-12">
+          				<h1>D.E.F.A.G.A.</h1>
+          				<h2>Digby East Fish &amp; Game Association<br>Gun Club</h2>
           				<a href="#about" class="btn btn-circle page-scroll"><i class="fa fa-angle-double-down animated"></i></a> 
-                 	</div><!-- ./col-md-8 --> 
+                 	</div><!-- ./col-sm-12 --> 
       			</div><!-- ./row --> 
     		</div><!-- ./container --> 
-  		</header><!-- ./intro-body --> 
 	</section>
 
-<!-- About Section =========================================================================================================================================== -->
+<!-- ABOUT SECTION =========================================================================================================================================== -->
 	<section id="about" class="content-section text-center">
     	<div class="container">
             <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
+                <div class="col-sm-12">
                     
                     <!-- AR-15 PETITION ALERT ================================================================================================================ -->
                     <div class="alert alert-danger alert-dismissible fade in" role="alert">
@@ -127,26 +125,25 @@
                         Click <a href="https://petitions.parl.gc.ca/en/Petition/Details?Petition=e-111" class="alert-link">HERE</a> to sign the AR-15 petition. 						        		</div><!-- ./alert --> 
                     <br>
                     <h2>About the Gun Club</h2>
-                    <h3>Our Indoor Range</h3>
+                    <h4>Our Indoor Range</h4>
                     <p>We have a 20 yard range with 4 firing positions. It accomodates all traditional handgun calibers as well as .22 rimfire rifles. The range is properly ventilated and provincially approved. A qualified range officer will always be present to supervise the safe use of your firearm and range.</p>
-                    <h3>What We Do</h3>
+                    <h4>What We Do</h4>
                     <p>We are primarily a pistol and rifle club for both traditional and practical target shooting. We welcome all new members seeking a new and challenging sport. You may join us in a two day trial period before making the decision to join the club. We will be surprised if you do not become hooked! </p>
-                    <h3>When We Meet</h3>
+                    <h4>When We Meet</h4>
                     <p>Traditional pistol "Bullseye" shooting is held Monday evenings, 7:00 pm to 9:30 pm and "Practical Pistol" is on Wednesdays, 7:00 pm to 9:00 pm. A Practical Rifle Section will be starting soon. If you would like to visit please come see us on a Monday night. Wednesday nights are for regular members only. Our contact information is on the top of this page. Hope to see you soon!</p>
           
                     <!-- EVENTS BUTTON ======================================================================================================================= -->
                     <button type="button" class="btn btn-default btn-lg" data-container="body"  data-trigger="hover" data-toggle="popover">Upcoming Events</button>
-                </div><!-- ./col-lg-8 --> 
+                </div><!-- ./col-sm-12 --> 
             </div><!-- ./row -->
         </div><!-- ./container -->
 	</section><!-- ./about -->
 
 <!-- MEMBERSHIP SECTION ====================================================================================================================================== -->
-	<section id="membership" class="content-section text-center" data-type="background" data-speed="10"><!-- used for parallax bg -->
-  		<div class="membership-section">
+	<section id="membership" class="content-section text-center parallax"><!-- used for parallax bg -->
         	<div class="container">
                 <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
+                    <div class="col-sm-12">
                     
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                             <h2>Membership Options</h2>
@@ -229,133 +226,140 @@
                             </div><!-- ./modal-dialog --> 
                         </div><!-- ./modal --> 
           
-                    </div><!-- ./col-lg-8 -->
+                    </div><!-- ./col-sm-12 -->
                 </div><!-- ./row -->
             </div><!-- ./container -->
-  		</div><!-- ./membership-section --> 
 	</section><!-- ./membership -->
 
 <!-- CONTACT SECTION ========================================================================================================================================= -->
 	<section id="contact" class="content-section text-center">
     	<div class="container">
             <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
+                <div class="col-sm-12">
                     <h2>Contact Digby Gun Club</h2>
                     <p>Feel free to email or call us to provide some feedback on our club, give us suggestions for new events and provide pictures for our social media, or to just say hello!</p>
                     <p><a href="mailto:gunclub@defaga.com">gunclub@defaga.com</a></p>
                     <p><a href="https://www.google.ca/maps/place/1492+Ridge+Rd,+Barton,+NS+B0W+1H0/@44.5197461,-65.8154655,17z/data=!3m1!4b1!4m2!3m1!1s0x4ca81fe245b50db7:0x9cd34e926d071a04">1492 Ridge Road <br>
                     Barton, NS B0W 1H0</a></p>
                     <p><a href="tel://1-902-245-5315">+1 (902) 245-5315</a></p>
-                </div><!-- ./col-lg-8 --> 
+                </div><!-- ./col-sm-12 --> 
             </div><!-- ./row --> 
         </div><!-- ./container -->
 	</section><!-- ./contact -->
 
 <!-- EMBEDDED FACEBOOK TIMELINE ============================================================================================================================== -->
-	<section id="facebook" class="content-section text-center" data-type="background" data-speed="10"><!-- used for parallax bg -->
+	<section id="facebook" class="content-section text-center parallax"><!-- used for parallax bg -->
     	<div class="container">
             <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
+                <div class="col-sm-12">
+                	<h2>Official Facebook Page</h2>
                     <div class="fb-page" data-href="https://www.facebook.com/Digby-Gun-Club-Practical-Shooting-Division-1503406323308788/?fref=ts" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
                     </div><!-- ./fb-page -->
-                </div><!-- ./col-lg-8 --> 
+                </div><!-- ./col-sm-12 --> 
             </div><!-- ./row -->
         </div><!-- ./container -->
   	</section><!-- ./facebook --> 
 
-<!-- IMAGES SECTION ========================================================================================================================================== -->
+<!-- PICTURES SECTION ======================================================================================================================================== -->
 	<section id="pictures" class="content-section text-center">
     	<div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
+        	<div class="row">
+                <div class="col-sm-12">
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> 
-            
+                    
                         <!-- IDICATORS ======================================================================================================================= -->
                         <ol class="carousel-indicators">
-                          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-                          <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
                         </ol>
-            
+                    
                         <!-- WRAPPER FOR SLIDES ============================================================================================================== -->
                         <div  style="text-transform:uppercase" class="carousel-inner" role="listbox">
-                        
+                                
                             <div class="item active"> <img src="img/range_5.JPG" alt="indoor range 1">
                                 <div class="carousel-caption"> 
                                     Four firing positions full 
                                 </div><!-- ./carousel-caption --> 
                             </div><!-- ./item active -->
-                            
+                                    
                             <div class="item"> <img src="img/range_4.JPG" alt="indoor range 2">
                                 <div class="carousel-caption"> 
                                     Four firing positions full 
                                 </div><!-- ./carousel-caption --> 
                             </div><!-- ./item -->
-                            
+                                    
                             <div class="item"> <img src="img/target.JPG" alt="scoring">
                                 <div class="carousel-caption"> 
                                     Did she have a good score? 
                                 </div><!-- ./carousel-caption --> 
                             </div><!-- ./item -->
-                            
+                                    
                             <div class="item"> <img src="img/club_front.JPG" alt="front of lodge">
                                 <div class="carousel-caption"> 
                                     Front of the D.E.F.A.G.A. lodge 
                                 </div><!-- ./carousel-caption --> 
                             </div><!-- ./item -->
-                            
+                                    
                             <div class="item"> <img src="img/club_side.JPG" alt="side of lodge">
                                 <div class="carousel-caption"> 
                                     View from Haines Lake 
                                 </div><!-- ./carousel-caption --> 
                             </div><!-- ./item -->
-                            
+                                    
                             <div class="item"> <img src="img/9mm.JPG" alt="tanfoglio">
                                 <div class="carousel-caption"> 
                                     Tanfoglio 
                                 </div><!-- ./carousel-caption --> 
                             </div><!-- ./item -->
-                            
+                                    
                             <div class="item"> <img src="img/ruger_22.jpg" alt="ruger mark 3">
                                 <div class="carousel-caption"> 
                                     Ruger Mark 3 
                                 </div><!-- ./carousel-caption --> 
                             </div><!-- ./item --> 
-                            
+                                    
                             A Day in the Life at the Gun Club 
                         </div><!-- ./carousel-inner --> 
-            
-                        <!-- CONTROLS ======================================================================================================================== --> 					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> 
+                    
+                        <!-- CONTROLS ======================================================================================================================== --> 				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> 
                         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
                     </div><!-- ./carousel-example-generic --> 
-                </div><!-- ./col-lg-8 --> 
-            </div><!-- ./row --> 
-        </div><!-- ./container -->
+                </div><!-- ./col-sm-12 -->
+            </div><!-- ./row -->
+    	</div><!-- ./container --> 
 	</section><!-- ./pictures -->
 
 <!-- GOOGLE MAP CONTAINER ==================================================================================================================================== -->
-    <div id="googleMap" style="width:100%;height:380px;"></div>
+    <section id="googleMap" class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                </div><!-- ./col-sm-12 -->
+            </div><!-- ./row -->
+        </div><!-- ./container -->
+    </section><!-- ./googleMap -->
 
 <!-- FOOTER SECTION ========================================================================================================================================== -->
-	<footer>
-  		<div class="container text-center">
+	<footer id="footer" class="content-section text-center">
+  		<div class="container">
         	<div class="row">
         		<div class="col-sm-12">
-    				<p>Copyright &copy; Digby Gun Club 2015</p>
-        		</div><!-- ./col-sm-8 -->
+    				<h4>Copyright &copy; Digby Gun Club 2015</h4>
+        		</div><!-- ./col-sm-12 -->
         	</div><!-- ./row -->
   		</div><!-- ./container -->
 	</footer>
 
-<!-- BOOTSTRAP JQUERY ======================================================================================================================================== --> 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<!-- BOOTSTRAP JQUERY ======================================================================================================================================== --> 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 <!--  MINIFIED JAVASCRIPT ==================================================================================================================================== --> 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
-<!-- EASING PLUGIN JAVASCRIPT ======================================================================================================================================= --> 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<!-- EASING PLUGIN JAVASCRIPT ================================================================================================================================ --> 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
 
 <!-- CUSTOM THEME JAVASCRIPT ================================================================================================================================= --> 	<script src="js/main.js"></script> 
     
