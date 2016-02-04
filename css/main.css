@@ -261,7 +261,7 @@ section.parallax {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url('../img/club_front_bw.png') !important;
+    background: url('../img/club_front_bw-min.png') !important;
 	background-attachment:fixed !important;
 	background-repeat:no-repeat !important;
 	background-position:50% 50% !important;
@@ -298,7 +298,7 @@ section.parallax {
     padding: 50px 0;
     text-align: center;
     color: #000;
-    background: url('../img/ruger_gp100_bw.png');
+    background: url('../img/ruger_gp100_bw-min.png');
 	background-attachment:fixed !important;
 	background-repeat:no-repeat !important;
 	background-position:50% 50% !important;
@@ -330,7 +330,7 @@ section.parallax {
     padding: 50px 0;
     text-align: center;
     color: #fff;
-    background: url('../img/9mm_pair_bw.png');
+    background: url('../img/9mm_pair_bw-min.png');
 	background-attachment:fixed !important;
 	background-repeat:no-repeat !important;
 	background-position:50% 50% !important;
@@ -378,12 +378,57 @@ section.parallax {
 /* BODY SECTIONS RESPONSIVE CSS =============================================================================================================================== */
 @media(max-width:991px) {
 	#intro{
+	display:table;
+    width:auto;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url('../img/club_front_bw-min.png') !important;
+	background-attachment:scroll !important;
+	background-repeat:no-repeat !important;
+	background-position:50% 50% !important;
+	-moz-background-size:cover !important;
+	-o-background-size:cover !important;
+	-webkit-background-size:cover !important;
+	background-size:cover !important;
+    background-color: #000 !important;
 	}
 	
 	#membership{
+	display:table;
+    width:auto;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url('../img/ruger_gp100_bw-min.png') !important;
+	background-attachment:scroll !important;
+	background-repeat:no-repeat !important;
+	background-position:50% 50% !important;
+	-moz-background-size:cover !important;
+	-o-background-size:cover !important;
+	-webkit-background-size:cover !important;
+	background-size:cover !important;
+    background-color: #000 !important;
 	}
 	
 	#facebook{
+	display:table;
+    width:auto;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url('../img/9mm_pair_bw-min.png') !important;
+	background-attachment:scroll !important;
+	background-repeat:no-repeat !important;
+	background-position:50% 50% !important;
+	-moz-background-size:cover !important;
+	-o-background-size:cover !important;
+	-webkit-background-size:cover !important;
+	background-size:cover !important;
+    background-color: #000 !important;
 	}
 	
 	#intro h2{
